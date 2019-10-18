@@ -1,0 +1,213 @@
+@media screen and (min-width: 640px){
+
+
+    body{
+        cursor: default;
+        height: 100%;
+    }
+
+    .pad-cent{
+        padding-top: 100px;
+        padding-bottom: 120px;
+    }
+
+    div{
+        text-align: left;
+    }
+
+    h1{
+        font-size: 48px;
+    }
+
+    h2{
+        font-size: 40px;
+    }
+
+    h4{
+        font-size: 22px;
+    }
+
+    p{
+        font-size: 16px;
+    }
+
+    h3{
+        font-size: 25px;
+    }
+
+    h5{
+        font-size: 18px;
+    }
+
+    a::after{
+        content: none !important;
+    }
+
+    .text-align-center{
+        justify-content: center;
+        padding: 50px 0 0;
+    }
+
+    /* header */
+
+    header{
+        width: 100%;
+        background-color: #003C5A;
+    }
+
+    .bg-none{
+        background-color: #fff;
+    }
+
+    .nav-hover{
+        
+    }
+
+    .nav-link:hover{
+        color: #fff !important;
+        transition: .3s all ease;
+
+    }
+
+    .call-us:hover{
+        color: #e76e33;
+        transition: .3s all ease;
+    }
+
+    header > .container{
+        max-width: 1200px;
+        height: 155px;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: none;
+    }
+
+    .bg-planet{
+        height: 743px;
+    }
+
+    *+.col-marge{
+        margin: 0;
+    }
+
+    .hidden{
+        display: none;
+    }
+
+    .order-12{
+        order: 2;
+        margin-left: 200px;
+    }
+
+    .order-12 > ul > li{
+        margin-left: 30px;
+    }
+
+    .order-2{
+        order: 1;
+        font: 700 30px/62px "Merriweather", serif;
+    }
+
+    .call-us{
+        font-size: 20px;
+        font-weight: 300;
+        margin-top: 20px;
+        margin-left: 75px;
+    }
+
+    /* 6 reasons */
+
+    .box-art{
+        width: 570px;
+        height: 140px;
+        margin-top: 74px;
+    }
+
+    .box-left{
+        width: 100px;
+        height: 100%;
+        float: left;
+        display: block;
+    }
+
+    .box-body{
+        text-align: left;
+        width: 470px;
+        height: 100%;
+        margin-left: auto;
+    }
+
+    .box-body > p{
+        margin: 20px 0 0;
+    }
+
+    .hidden-not{
+        display: block;
+    }
+
+    /* form e-mail */
+
+    .text-center{
+        text-align: center;
+    }
+
+    input{
+        width: 470px;
+    }
+
+    .form-center{
+        justify-content: center;
+    }
+
+    .form-espace{
+        padding-left: 35px;
+    }
+
+    /* carousel */
+
+    .center-carousel, .carousel-item{
+        text-align: center;
+    }
+
+    .center-carousel > .row{
+        justify-content: center;
+    }
+
+    q{
+        font: 24px 'Merriweather', serif;
+        quotes: none;
+    }
+
+    .height-80{
+        height: 350px;
+    }
+
+    /* footer */
+
+    .copyright{
+        margin: 0;
+    }
+
+    .footer-ligne{
+        margin: 10px 0 0;
+    }
+
+    .footer-ligne > .flex-column{
+        flex-direction: row !important;
+        padding: 0;
+    }
+
+    .footer-ligne > ul > li:not(:first-child){
+        display: inline;
+        margin-left: 50px;
+    }
+
+    .footer-ligne > ul > li > a{
+        display: inline-block;
+    }
+
+    .footer-center{
+        margin: 0;
+    }
+
+}
